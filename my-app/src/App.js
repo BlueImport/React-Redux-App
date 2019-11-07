@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
+import AOEList from './components/AOEList';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Age Of Empires II</h1>
+        <AOEList />
       </header>
     </div>
   );
